@@ -1,7 +1,7 @@
 {
   "version" : "1.0.1",
   "name" : "temp11",
-  "number" : "22",
+  "number" : "54",
   "type" : "GRADLE",
   "buildAgent" : {
     "name" : "Gradle",
@@ -11,13 +11,18 @@
     "name" : "Jenkins",
     "version" : "2.150.2"
   },
-  "started" : "2019-02-21T20:01:03.719+0800",
-  "durationMillis" : 542,
+  "started" : "2019-02-21T21:00:49.778+0800",
+  "durationMillis" : 245,
   "principal" : "wzy",
   "artifactoryPrincipal" : "admin",
   "artifactoryPluginVersion" : "3.1.2",
-  "url" : "http://172.16.229.1:8080/job/temp11/22/",
-  "vcs" : [ ],
+  "url" : "http://172.16.229.1:8080/job/temp11/54/",
+  "vcs" : [ {
+    "revision" : "dd3a8865253272d593008e94c3c027ad3d2bbaab",
+    "url" : "git@github.com:wzy5223/gradlehelloworld.git"
+  } ],
+  "vcsRevision" : "dd3a8865253272d593008e94c3c027ad3d2bbaab",
+  "vcsUrl" : "git@github.com:wzy5223/gradlehelloworld.git",
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -26,22 +31,22 @@
     "licenseViolationsRecipientsList" : ""
   },
   "modules" : [ {
-    "id" : "com.newtrekwang.basicjava:temp11:1.0-SNAPSHOT",
+    "id" : "com.newtrekwang.basicjava:temp11:1.7",
     "artifacts" : [ {
       "type" : "jar",
-      "sha1" : "fa1df8e17a5685e1749fd631f0299a1bb8cc3063",
-      "md5" : "4a8032fd62533c1b628feed034604769",
-      "name" : "BasicJava-1.0-SNAPSHOT.jar"
+      "sha1" : "af6fb0dd683d170b8eed40773281b7324aea3baa",
+      "md5" : "bff0dde29f2fc00e2f7069097d094573",
+      "name" : "BasicJava-1.7.jar"
     }, {
       "type" : "tar",
-      "sha1" : "60d55ea6caf652210381998322328c442a35dbdc",
-      "md5" : "b404aa5a51ce6e04c05b70b34894b8e1",
-      "name" : "temp11-1.0-SNAPSHOT.tar"
+      "sha1" : "cb4fe230497d9fe30a61721f830e9a356552540e",
+      "md5" : "862682711731c4c06358d109e6df98ea",
+      "name" : "temp11-1.7.tar"
     }, {
       "type" : "zip",
-      "sha1" : "527828823f6d4ce74ed5d6c9409c33bd07b49bef",
-      "md5" : "c49d0372d8548d3d038ba379b19270e8",
-      "name" : "temp11-1.0-SNAPSHOT.zip"
+      "sha1" : "c2befeba7768227225f17b8631134bbf19f1d9eb",
+      "md5" : "b80c0cc430a8920f80a6af8e91bce3d2",
+      "name" : "temp11-1.7.zip"
     } ],
     "excludedArtifacts" : [ ],
     "dependencies" : [ {
@@ -51,6 +56,15 @@
       "id" : "org.slf4j:slf4j-api:1.7.25",
       "scopes" : [ "compileClasspath", "runtimeClasspath" ]
     } ]
+  } ],
+  "statuses" : [ {
+    "status" : "Staged",
+    "comment" : "",
+    "repository" : "gradle_local",
+    "timestamp" : "2019-02-21T21:00:49.778+0800",
+    "user" : "admin",
+    "ciUser" : "wzy",
+    "timestampDate" : 1550754049778
   } ],
   "governance" : {
     "blackDuckProperties" : {
