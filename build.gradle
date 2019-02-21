@@ -9,7 +9,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 group 'com.newtrekwang.basicjava'
-version ${currentVersion}
+version "${currentVersion}"
 
 repositories {
     jcenter()
