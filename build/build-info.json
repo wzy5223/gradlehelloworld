@@ -1,0 +1,63 @@
+{
+  "version" : "1.0.1",
+  "name" : "temp11",
+  "number" : "22",
+  "type" : "GRADLE",
+  "buildAgent" : {
+    "name" : "Gradle",
+    "version" : "4.10.2"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.150.2"
+  },
+  "started" : "2019-02-21T20:01:03.719+0800",
+  "durationMillis" : 542,
+  "principal" : "wzy",
+  "artifactoryPrincipal" : "admin",
+  "artifactoryPluginVersion" : "3.1.2",
+  "url" : "http://172.16.229.1:8080/job/temp11/22/",
+  "vcs" : [ ],
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "modules" : [ {
+    "id" : "com.newtrekwang.basicjava:temp11:1.0-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "fa1df8e17a5685e1749fd631f0299a1bb8cc3063",
+      "md5" : "4a8032fd62533c1b628feed034604769",
+      "name" : "BasicJava-1.0-SNAPSHOT.jar"
+    }, {
+      "type" : "tar",
+      "sha1" : "60d55ea6caf652210381998322328c442a35dbdc",
+      "md5" : "b404aa5a51ce6e04c05b70b34894b8e1",
+      "name" : "temp11-1.0-SNAPSHOT.tar"
+    }, {
+      "type" : "zip",
+      "sha1" : "527828823f6d4ce74ed5d6c9409c33bd07b49bef",
+      "md5" : "c49d0372d8548d3d038ba379b19270e8",
+      "name" : "temp11-1.0-SNAPSHOT.zip"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "da76ca59f6a57ee3102f8f9bd9cee742973efa8a",
+      "md5" : "caafe376afb7086dcbee79f780394ca3",
+      "id" : "org.slf4j:slf4j-api:1.7.25",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
